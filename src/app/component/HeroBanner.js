@@ -6,23 +6,33 @@ import { Carousel } from 'react-responsive-carousel';
 
 
 function HeroBanner() {
+    const cards = [
+        {
+          id: "0",
+          image:
+            "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Electronics/Clearance/Clearance_store_Desktop_CC_2x._SY608_CB628315133_.jpg",
+          description: "Up to 70% off | Clearance store",
+        },
+        {
+          id: "1",
+          image:
+            "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wearables/PC_CategoryCard_758X608_1._SY608_CB614835787_.jpg",
+          description: "Bluetooth Calling Smartwatch starts at ₹1,999",
+        },
+        {
+          id: "2",
+          image:
+            "https://images-eu.ssl-images-amazon.com/images/G/31/img21/Pharmacy/GW/2023/WK32/PC_CC_Set_750X608_AP._SY608_CB598135139_.jpg",
+          description: "Amazon Pharmacy | Up to 30% off on medicines",
+        },
+        {
+            id: "3",
+            image:
+              "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Electronics/Clearance/Clearance_store_Desktop_CC_2x._SY608_CB628315133_.jpg",
+            description: "Up to 70% off | Clearance store",
+          },
+      ];
     return (
-        // <div >
-        //     <Carousel
-        //     >
-
-        //         <div className='max-h-3.5'>
-        //             <img src="https://i.ytimg.com/vi/blnNNmsPChQ/maxresdefault.jpg"/>
-        //         </div>
-        //         <div>
-        //             <img src="https://www.yamaha-motor-india.com/theme/v3/image/whatsnew/vintage-edition-pc.jpg" />
-        //         </div>
-        //         <div>
-        //             <img src="https://www.yamaha-motor-india.com/theme/v3/image/home/webp/banner-fzs-fi-v4.webp" />
-        //         </div>
-        //     </Carousel>
-        // </div>
-
         //Banner
         <div>
             <Carousel
